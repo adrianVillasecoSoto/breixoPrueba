@@ -52,11 +52,16 @@ body{
 }
 
 #textoFooter{
-  margin-left: 25px;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 .seccion{
   margin-top: 3rem;
+}
+
+.animacion:hover{
+
 }
 
 .seccion2{
@@ -135,11 +140,40 @@ body{
 .imagenSobremi{
   width: 100%;
   height: 26rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 100%;
+    width: 100%
+    
+  }
 }
 
 .imagenFormacion{
   width: 70%;
   height: 26rem;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .imagenExperiencia{
@@ -232,6 +266,7 @@ body{
   .imagenExperiencia{
     display: none;
   }
+
 }
 
 
