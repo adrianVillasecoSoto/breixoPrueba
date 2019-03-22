@@ -23,6 +23,13 @@ body{
   
 }
 
+.nombreMenu{
+  margin-right: auto;
+  color: #FAFAFA;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+}
+
 .icono{
   font-size: 35px;
   margin-left: 30px;
@@ -94,6 +101,14 @@ body{
   width: 65%;
   margin-top: -5px;
   margin-left: auto;
+
+}
+
+.lineaRoja3{
+  background: red;
+  height: 5px;
+  width: 30%;
+  margin-top: -5px;
 
 }
 
@@ -185,7 +200,26 @@ body{
   align-items: center;
 }
 
-@media only screen and (max-width: 1010px) {
+.contenedorbarras{
+  margin-top: 30px;
+}
+
+.contenedorbarraitem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress{
+  margin-top: 15px;
+  width: 60%;
+}
+
+.spanbarra{
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 1300px) {
   
   .imagenSobremi{
     display: none;
