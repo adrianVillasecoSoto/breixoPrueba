@@ -1,8 +1,203 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #00B7FF;
+.mimenu {
+  position: fixed;
+  width: 100%;
+  z-index: 998;
 }
+
+.imagenCarrousel{
+  width: 100%;
+  height: 25rem;
+}
+
+.elementosMenu{
+  margin-right: 5px;
+}
+
+.elementosMenu:hover{
+  background: #aaa3a3;
+  
+}
+
+.icono{
+  font-size: 35px;
+  margin-left: 30px;
+}
+
+#contenedorRedes{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedorFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FAFAFA;
+  background: #424242;
+}
+
+#textoFooter{
+  margin-left: 25px;
+}
+
+.seccion{
+  margin-top: 3rem;
+}
+
+.seccion2{
+  margin-top: 3rem;
+  text-align: right;
+}
+
+.separadorSeccion{
+  margin-top: 3rem;
+}
+
+.tituloSeccion{
+  font-size: 30px;
+}
+
+.subtituloSeccion{
+  font-size: 20px;
+  color: #9E9E9E;
+  font-weight: bold;
+}
+
+.subsubtituloSeccion{
+  font-size: 15px;
+  color: #9E9E9E;
+}
+
+.tituloSeccion2{
+  font-size: 30px;
+  text-align: right;
+}
+
+.lineaRoja{
+  background: red;
+  height: 5px;
+  width: 65%;
+  margin-top: -5px;
+}
+
+.lineaRoja2{
+  background: red;
+  height: 5px;
+  width: 65%;
+  margin-top: -5px;
+  margin-left: auto;
+
+}
+
+.contenedorListaSobremi{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 17px;
+  color: #9E9E9E;
+}
+
+.contenedorItemExperiencia{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.leftauto{
+  margin-left: auto;
+}
+
+.imagenSobremi{
+  width: 100%;
+  height: 26rem;
+}
+
+.imagenFormacion{
+  width: 70%;
+  height: 26rem;
+}
+
+.imagenExperiencia{
+  width: 100%;
+  height: 95vh;
+}
+
+.imagenClaudio{
+  width: 40%;
+  height: 12rem;
+}
+
+.imagenSoftoro{
+  width: 80%;
+}
+
+.imagenicv{
+  width: 35%;
+}
+
+.contenedorTituloSeccion{
+  display: flex;
+}
+
+.contenedorExperienciaSeccion{
+  display:flex;
+  justify-content: flex-end;
+}
+
+
+
+.buttonMas{
+  width: 30px;
+  background: transparent;
+  border: solid thistle 2px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.buttonMas:hover{
+  background: #aaa3a3;
+  cursor: pointer;
+}
+
+.modalCookie1{
+  position: fixed;
+}
+
+.divCookie{
+  height: 100px;
+  width: 100%;
+  background: grey;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1010px) {
+  
+  .imagenSobremi{
+    display: none;
+  }
+
+  .imagenFormacion{
+    display: none;
+  }
+
+  .imagenExperiencia{
+    display: none;
+  }
+}
+
+
